@@ -1,0 +1,431 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+header {font-family: 'Abril Fatface', cursive;}
+article h2 {font-family: 'Abril Fatface', cursive;}
+article {font-family: 'Patrick Hand', cursive;}
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #864C9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav h3 {
+    margin-left: 10px;
+    font-size: large;
+}
+ul li a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul li a:hover {
+    text-decoration: underline;
+    color: #C4C4C4;
+}
+nav h3 a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 0px 0 0px;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-position: 0% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+article {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+article h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.container1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.container1 .left {
+    flex: 1;
+    font-size: 25px;
+    line-height: 30px;
+    margin-right: 5px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.container3 .c31 {
+    flex: 1;
+    background-image: url(william%20wordsworth.jpg);
+    height: 400px;
+    background-position: 0% 0%;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+	display: flex;
+    align-items: flex-end;
+}
+.satanic1 .container3 .c511 {
+    flex: 1;
+    background-image: url(Percy%20Bysshe%20Shelley.jpg);
+    height: 400px;
+    background-position: 43% 25%;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 76% 123%;
+}
+
+.container3 .c41 {
+    flex: 1;
+    background-image: url(John%20Keats.jpeg);
+    height: 400px;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    align-items: flex-end;
+    background-size: 96% 134%;
+}
+
+
+.container1 .right {
+    flex: 1;
+    background-image: url(history%20back.jpg);
+    background-size: cover;
+    background-position: 0% 12%;
+    height: 350px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
+header h1 {
+    text-align: center;
+    font-size: 75px;
+}
+header a {
+}
+header h2 {
+    font-size: 37.5px;
+}
+.course {
+    background-color: #D0BAF4;
+}
+.container2 {
+    display: flex;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 350px;
+}
+.container2 .col01 {
+    flex: 1;
+    margin: 5px;
+    border-radius: 15px;
+    background-image: url(lake.jpg);
+    display: flex;
+    align-items: flex-end;
+}
+.container2 .colT {
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,223,223,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,223,223,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(232,223,223,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(232,223,223,1.00) 100%);
+    height: 30px;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 25px;
+}
+
+.container2 .col02 {
+    flex: 1;
+    background-image: url(cockney.jpg);
+    margin: 5px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.container2 .col03 {
+    flex: 1;
+    background-image: url(satan.jpg);
+    background-size: cover;
+    margin: 5px;
+    background-position: 0% 34%;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+#a02 p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    font-size: 25px;
+}
+#a03 p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    text-align: left;
+    font-size: 25px;
+}
+#a04 p {
+	width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    text-align: left;
+	font-size: 25px;
+}
+#a05 p {
+	width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    text-align: left;
+	font-size: 25px;
+}
+
+
+
+.history {
+    background-color: #E0D8D8;
+}
+.container3 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.container3 .c32 {
+    border-radius: 15px;
+    margin-left: 5px;
+    background-color: #BDB5B5;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+.satanic1 .container3 .c512 {
+	 border-radius: 15px;
+    margin-left: 5px;
+    background-color: #BDB5B5;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+
+.container3 .c42  {
+    border-radius: 15px;
+    margin-left: 5px;
+    background-color: #8F6E9C;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+
+.c3n  {
+    width: 100%;
+    height: 30px;
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 0.8;
+    line-height: 30px;
+    font-size: 25px;
+    text-shadow: 0px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.container1  p {
+    font-size: 25px;
+}
+
+.lake-1 {
+    background-color: #E0D8D8;
+}
+.satanic1 {
+	background-color: #E0D8D8;
+}
+
+
+.lake {
+    background-color: #E0D8D8;
+}
+.container311 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.lake-1 .container311 .c311 {
+    background-size: 96% 107%;
+    border-radius: 15px;
+    margin-right: 5px;
+    background-color: #BDB5B5;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+#a05 .container311 .c51 {
+	 background-size: 96% 107%;
+    border-radius: 15px;
+    margin-right: 5px;
+    background-color: #BDB5B5;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    font-size: large;
+}
+#a05 .container311 .c52 {
+    flex: 1;
+    background-image: url(George%20Gordon%20Byron.jpg);
+    height: 400px;
+    background-position: 53% 27%;
+    background-size: 88% 163%;
+    align-items: flex-end;
+    margin-left: 5px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.lake-1 .container311 .c312 {
+    flex: 1;
+    background-image: url(Samuel%20Taylor%20Coleridge.jpg);
+    height: 400px;
+    background-position: 36% 0%;
+    background-size: 95% 109%;
+    align-items: flex-end;
+	margin-left: 5px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.c311 p  {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    text-align: left;
+    font-size: 25px;
+}
+.container3 .c512 p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    text-align: left;
+    font-size: 25px;
+}
+article a:link  {
+    text-decoration: none;
+    color: #5B04E5;
+}
+article a:hover {
+    color: #57166C;
+    text-decoration: underline;
+}
+
+
+
+.cockney {
+    background-color: #D0BAF4;
+}
+.satanic {
+	background-color: #E0D8D8;
+}
+.course a:link {
+    text-decoration: none;
+    color: #7A1416;
+    text-shadow: 0 0;
+}
+.course a:hover {
+    text-decoration: underline;
+    color: #D5696B;
+}
+.video {background-color: #D0BAF4;
+}
+.v {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.video .v .v1 {
+    margin-right: 5px;
+}
+.video .v .v2 {
+    margin-left: 5px;
+}
+.reference {background-color: #D0BAF4;
+}
+.r {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.reference .r .r1 {
+    margin-right: 5px;
+}
+.reference .r .r2 {
+    margin-left: 5px;
+	margin-right: 5px;
+}
+.reference .r .r3 {
+    margin-left: 5px;
+}footer {
+    width: 100%;
+    height: 50px;
+    background-color: #864C9C;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 50px;
+}
